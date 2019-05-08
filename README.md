@@ -1,7 +1,9 @@
 # Microprocessors-and-Peripherals-Lab-Project
 
-Authors: 1.Dimitrios Antoniadis 
-
+Authors: 
+         
+         1.Dimitrios Antoniadis
+         
          2.Vasileios Dimitriadis
 
 
