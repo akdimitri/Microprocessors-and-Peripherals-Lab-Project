@@ -1,7 +1,8 @@
 # Microprocessors-and-Peripherals-Lab-Project
 
-*Authors: 1.Dimitrios Antoniadis 
-          2.Vasileios Dimitriadis*
+Authors: 1.Dimitrios Antoniadis 
+
+         2.Vasileios Dimitriadis
 
 
 ****************************
@@ -11,6 +12,8 @@ Semester: 8th
 
 ****************************
 *Project: Silo*
+
 *MCU: AVR atmetga16*
+
 *DEV Board: STK500*
 
