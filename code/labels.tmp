@@ -1,0 +1,72 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega16</DEVICE>
+ <WORKING_DIR>D:\Microprocessors\Assembly Workspace\Silo_0.2</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>16</LINE></RESET>
+  <TIMER0_OVF><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>178</LINE></TIMER0_OVF>
+  <TIMER2_OVF><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>192</LINE></TIMER2_OVF>
+  <MAIN><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>53</LINE></MAIN>
+  <WAIT_ON_START_BUTTON><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>54</LINE></WAIT_ON_START_BUTTON>
+  <CHECK_IF_SILO0_IS_EMPTY><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>57</LINE></CHECK_IF_SILO0_IS_EMPTY>
+  <ALARM><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>134</LINE></ALARM>
+  <EXECUTION><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>65</LINE></EXECUTION>
+  <CHECK_IF_STOP_PRESSED><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>66</LINE></CHECK_IF_STOP_PRESSED>
+  <CHECK_IF_SW1_PRESSED><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>70</LINE></CHECK_IF_SW1_PRESSED>
+  <CHECK_IF_SW2_PRESSED><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>83</LINE></CHECK_IF_SW2_PRESSED>
+  <SET_Y1><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>77</LINE></SET_Y1>
+  <CHECK_ON_M2><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>94</LINE></CHECK_ON_M2>
+  <SET_Y2><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>88</LINE></SET_Y2>
+  <CHECK_ON_M1><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>110</LINE></CHECK_ON_M1>
+  <CHECK_Q2><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>101</LINE></CHECK_Q2>
+  <START_M2><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>106</LINE></START_M2>
+  <CHECK_FOR_ERRORS><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>125</LINE></CHECK_FOR_ERRORS>
+  <CHECK_Q1><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>113</LINE></CHECK_Q1>
+  <START_M1><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>118</LINE></START_M1>
+  <PAUSE_7_SECS><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>151</LINE></PAUSE_7_SECS>
+  <WAIT_ON_ACKNOWLEDGEMENT><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>141</LINE></WAIT_ON_ACKNOWLEDGEMENT>
+  <LOOP><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>161</LINE></LOOP>
+  <READ_B1><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>195</LINE></READ_B1>
+  <B1_CONVERSION><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>200</LINE></B1_CONVERSION>
+  <B1_CONVERSION_DONE><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>204</LINE></B1_CONVERSION_DONE>
+  <CLEAR_B1><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>212</LINE></CLEAR_B1>
+  <SET_B1><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>209</LINE></SET_B1>
+  <READ_B2><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>216</LINE></READ_B2>
+  <B2_CONVERSION><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>221</LINE></B2_CONVERSION>
+  <B2_CONVERSION_DONE><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>225</LINE></B2_CONVERSION_DONE>
+  <CLEAR_B2><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>233</LINE></CLEAR_B2>
+  <SET_B2><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>230</LINE></SET_B2>
+  <READ_B3><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>237</LINE></READ_B3>
+  <B3_CONVERSION><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>242</LINE></B3_CONVERSION>
+  <B3_CONVERSION_DONE><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>246</LINE></B3_CONVERSION_DONE>
+  <CLEAR_B3><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>254</LINE></CLEAR_B3>
+  <SET_B3><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>251</LINE></SET_B3>
+  <READ_B4><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>258</LINE></READ_B4>
+  <B4_CONVERSION><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>263</LINE></B4_CONVERSION>
+  <B4_CONVERSION_DONE><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>267</LINE></B4_CONVERSION_DONE>
+  <CLEAR_B4><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>275</LINE></CLEAR_B4>
+  <SET_B4><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>272</LINE></SET_B4>
+  <READ_A1><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>279</LINE></READ_A1>
+  <A1_CONVERSION><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>284</LINE></A1_CONVERSION>
+  <A1_CONVERSION_DONE><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>288</LINE></A1_CONVERSION_DONE>
+  <CLEAR_A1><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>296</LINE></CLEAR_A1>
+  <SET_A1><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>293</LINE></SET_A1>
+  <END_OF_TIMER2_OVF><FILE>D:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm</FILE><LINE>299</LINE></END_OF_TIMER2_OVF>
+ </LABELS>
+</ASSEMBLER_INFO>
