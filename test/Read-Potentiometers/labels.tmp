@@ -1,0 +1,51 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega16</DEVICE>
+ <WORKING_DIR>C:\Users\dimitris\Desktop\Read-Potentiometers</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>6</LINE></RESET>
+  <MAIN><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>19</LINE></MAIN>
+  <READ_PA0><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>21</LINE></READ_PA0>
+  <PA0_CONVERSION><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>27</LINE></PA0_CONVERSION>
+  <STORE_PA0><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>31</LINE></STORE_PA0>
+  <TURN_ON_LED0><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>39</LINE></TURN_ON_LED0>
+  <TURN_OFF_LED0><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>36</LINE></TURN_OFF_LED0>
+  <READ_PA1><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>43</LINE></READ_PA1>
+  <PA1_CONVERSION><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>49</LINE></PA1_CONVERSION>
+  <STORE_PA1><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>53</LINE></STORE_PA1>
+  <TURN_ON_LED1><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>61</LINE></TURN_ON_LED1>
+  <TURN_OFF_LED1><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>58</LINE></TURN_OFF_LED1>
+  <READ_PA2><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>65</LINE></READ_PA2>
+  <PA2_CONVERSION><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>71</LINE></PA2_CONVERSION>
+  <STORE_PA2><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>75</LINE></STORE_PA2>
+  <TURN_ON_LED2><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>83</LINE></TURN_ON_LED2>
+  <TURN_OFF_LED2><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>80</LINE></TURN_OFF_LED2>
+  <READ_PA3><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>87</LINE></READ_PA3>
+  <PA3_CONVERSION><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>93</LINE></PA3_CONVERSION>
+  <STORE_PA3><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>97</LINE></STORE_PA3>
+  <TURN_ON_LED3><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>105</LINE></TURN_ON_LED3>
+  <TURN_OFF_LED3><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>102</LINE></TURN_OFF_LED3>
+  <READ_PA4><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>109</LINE></READ_PA4>
+  <PA4_CONVERSION><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>115</LINE></PA4_CONVERSION>
+  <STORE_PA4><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>119</LINE></STORE_PA4>
+  <TURN_ON_LED4><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>127</LINE></TURN_ON_LED4>
+  <TURN_OFF_LED4><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>124</LINE></TURN_OFF_LED4>
+  <FINISH><FILE>C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm</FILE><LINE>131</LINE></FINISH>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "C:\Users\dimitris\Desktop\Read-Potentiometers\labels.tmp" -fI -W+ie -C V2E -o "C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.hex" -d "C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.obj" -e "C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.eep" -m "C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.map" "C:\Users\dimitris\Desktop\Read-Potentiometers\Read_Potentiometers.asm"
