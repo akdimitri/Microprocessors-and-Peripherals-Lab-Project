@@ -1,2 +1,0 @@
-@ECHO OFF
-"C:\Program Files\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "E:\Microprocessors\Assembly Workspace\Silo_0.2\labels.tmp" -fI -W+ie -C V2E -o "E:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.hex" -d "E:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.obj" -e "E:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.eep" -m "E:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.map" "E:\Microprocessors\Assembly Workspace\Silo_0.2\Silo.asm"
