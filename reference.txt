@@ -88,6 +88,8 @@
 	8. IF( SW4 == 0 || SW5 == 0)
 	     ( Q1 is PRESSED OR Q2 is PRESSED) 
 		CALL ALARM FUNCTION
+	9. IF( B2 == 1 && B4 == 1)
+		CALL ALARM.
 	9. JUMP TO 2.
 
 
