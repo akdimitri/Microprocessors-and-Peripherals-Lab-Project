@@ -9,13 +9,13 @@ Authors:
 
 ****************************
 
-| SUBJECT:	MICROCONTROLLERS AND PERIPHERALS	|
+ SUBJECT:	MICROCONTROLLERS AND PERIPHERALS	
 
-| UNIVERSITY:	ARISTOTLE UNIVERISTY OF THESSALONIKI	|
+ UNIVERSITY:	ARISTOTLE UNIVERISTY OF THESSALONIKI	
 
-| SEMESTER:	8TH					|
+ SEMESTER:	8TH					
 
-| DATE:		26/5/2019				|
+ DATE:		26/5/2019				
 ****************************
 
 *Project: Silo*
@@ -24,13 +24,11 @@ Authors:
 
 *DEV Board: STK500*
 
-
-
-
 					
 CLOCK SPEED: 4 MHz
 
 1.--- DEFINITIONS SEGMENT ---
+------------------------------------------
 
 	COREA = CONTROL REGISTER A: [ B1| B2| B3| B4| A1| Y1| Y2| - ]
 	
@@ -42,17 +40,20 @@ CLOCK SPEED: 4 MHz
 
 
 2.--- INTERRUPT VECTORS ---
+----------------------------------------
+
 	$0000 RESET
 	$0008 TIM2_OVF 
 	$0012 TIM0_OVF
 
 3.--- RESET VECTOR ---
 ------------------------------------------
-- This vector is executed first at power -
-- on or whether RESET button or if RESET -
-- is called is called during execution.  -
-- This vector set ups the execution 	 -
-- environment.		 		 -
+ This vector is executed first at power 
+ on or whether RESET button or if RESET 
+ is called is called during execution.  
+ This vector set ups the execution 	 
+ environment.
+ 
 ------------------------------------------
 
 	1. Set the stack pointer to top of RAM.
@@ -78,9 +79,10 @@ CLOCK SPEED: 4 MHz
 	   
 4.--- MAIN FUNCTION ---
 -------------------------------------------------
-- This function is responsible for executing 	-
-- the main program. It is the first function	-
-- to be called after RESET vector		-
+ This function is responsible for executing 	
+ the main program. It is the first function	
+ to be called after RESET vector		
+
 -------------------------------------------------
 
 	1. WAIT UNTIL SW0 IS PRESSED.
@@ -123,8 +125,9 @@ CLOCK SPEED: 4 MHz
 
 5.--- ALARM ---
 ------------------------------------------------------
-- this function is called when both silos are filled -
-- or when a missfunction occurs			     -
+ this function is called when both silos are filled 
+ or when a missfunction occurs			    
+
 ------------------------------------------------------
 	1. DISABLE TIM0_OVF
 	2. ENABLE TIM2_OVF
@@ -135,9 +138,10 @@ CLOCK SPEED: 4 MHz
 
 6.--- TIMER0 OVERFLOW INTERRUPT ---
 ----------------------------------------------------
-- this function is executed every time an overflow -
-- in TIMER0 occurs. It also reads the silo values  -
-- every 64 usecs.				   -
+ this function is executed every time an overflow 
+ in TIMER0 occurs. It also reads the silo values  
+ every 64 usecs.				   
+
 ----------------------------------------------------
 	1. SAVE STATUS REGISTER IN STACK
 	2. READ PA0, PA1, PA2, PA3, PA4
@@ -146,8 +150,9 @@ CLOCK SPEED: 4 MHz
 
 7.--- PAUSE ---
 --------------------------------------
-- this function is just waisting CPU -
-- power for 7 seconds.		     -
+ this function is just waisting CPU 
+ power for 7 seconds.		     
+
 --------------------------------------
 	1. DISABLE INTERRUPTS
 	2. WAIT 7 SECONDS
@@ -156,11 +161,12 @@ CLOCK SPEED: 4 MHz
 
 8.--- TIMER2 OVERFLOW INTERRUPT ---
 ----------------------------------------------------
-- this function is executed every time alarm funct -
-- ion is called. It holds a counter. Each time an  -
-- overflow happens, this counter is increased.     -
-- When counter equals 7 (0.5 seconds), it toggles  -
-- LED0. 					   -
+ this function is executed every time alarm funct 
+ ion is called. It holds a counter. Each time an  
+ overflow happens, this counter is increased.     
+ When counter equals 7 (0.5 seconds), it toggles  
+ LED0. 					   
+
 ----------------------------------------------------
 	1. SAVE STATUS REGISTER IN STACK
 	2. INCREASE COUNTER
