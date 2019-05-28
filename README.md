@@ -9,11 +9,15 @@ Authors:
 
 ****************************
 
-Univeristy: Aristotle University of Thessaloniki
+| SUBJECT:	MICROCONTROLLERS AND PERIPHERALS	|
 
-Semester: 8th
+| UNIVERSITY:	ARISTOTLE UNIVERISTY OF THESSALONIKI	|
 
+| SEMESTER:	8TH					|
+
+| DATE:		26/5/2019				|
 ****************************
+
 *Project: Silo*
 
 *MCU: AVR atmetga16*
@@ -22,15 +26,8 @@ Semester: 8th
 
 
 
----------------------------------------------------------
-| AUTHORS: 	1. DIMITRIOS ANTONIADIS			|
-|		2. VASILEIOS DIMITRIADIS		|
-| SUBJECT:	MICROCONTROLLERS AND PERIPHERALS	|
-| UNIVERSITY:	ARISTOTLE UNIVERISTY OF THESSALONIKI	|
-| SEMESTER:	8TH					|
-| DATE:		24/5/2019				|
----------------------------------------------------------	
 
+					
 CLOCK SPEED: 4 MHz
 
 1.--- DEFINITIONS SEGMENT ---
