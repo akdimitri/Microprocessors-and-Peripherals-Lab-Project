@@ -120,7 +120,7 @@ CLOCK SPEED: 4 MHz
 		CALL ALARM FUNCTION
 	9. IF( B2 == 1 && B4 == 1)
 		CALL ALARM.
-	9. JUMP TO 2.
+	10. JUMP TO 2.
 
 
 5.--- ALARM ---
@@ -129,11 +129,12 @@ CLOCK SPEED: 4 MHz
  or when a missfunction occurs			    
 
 ------------------------------------------------------
+
 	1. DISABLE TIM0_OVF
 	2. ENABLE TIM2_OVF
-	2. START BUZZER
-	3. WAIT ON SW6 TO BE PRESSED.
-	4. JUMP RESET FUNCTION.
+	3. START BUZZER
+	4. WAIT ON SW6 TO BE PRESSED.
+	5. JUMP TO RESET FUNCTION.
 
 
 6.--- TIMER0 OVERFLOW INTERRUPT ---
@@ -143,6 +144,7 @@ CLOCK SPEED: 4 MHz
  every 64 usecs.				   
 
 ----------------------------------------------------
+
 	1. SAVE STATUS REGISTER IN STACK
 	2. READ PA0, PA1, PA2, PA3, PA4
 	3. SET/CLEAR B1, B2, B3, B4, A1 bits in COREA.
@@ -154,6 +156,7 @@ CLOCK SPEED: 4 MHz
  power for 7 seconds.		     
 
 --------------------------------------
+
 	1. DISABLE INTERRUPTS
 	2. WAIT 7 SECONDS
 	3. ENABLE INTERRUPTS
@@ -168,6 +171,7 @@ CLOCK SPEED: 4 MHz
  LED0. 					   
 
 ----------------------------------------------------
+
 	1. SAVE STATUS REGISTER IN STACK
 	2. INCREASE COUNTER
 	3. IF COUNTER EQUALS 7 TOGGLE LED0, SET COUNTER TO ZERO.
