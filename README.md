@@ -30,12 +30,10 @@ CLOCK SPEED: 4 MHz
 1.--- DEFINITIONS SEGMENT ---
 ------------------------------------------
 
-	COREA = CONTROL REGISTER A: [ B1| B2| B3| B4| A1| Y1| Y2| - ]
-	
+	COREA = CONTROL REGISTER A: [ B1| B2| B3| B4| A1| Y1| Y2| - ]	
 			BITS      : [ 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 ]
 	
-	COREB = CONTROL REGISTER B: [ M1| M2| - | - | - | B5| - | - ]
-	
+	COREB = CONTROL REGISTER B: [ M1| M2| - | - | - | B5| - | - ]	
 			BITS      : [ 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 ]
 
 
