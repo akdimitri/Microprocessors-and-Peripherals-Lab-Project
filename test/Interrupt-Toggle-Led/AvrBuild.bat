@@ -1,2 +1,0 @@
-@ECHO OFF
-"C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "C:\Users\dimitris\Desktop\Interrupt-Toggle-Led\labels.tmp" -fI -W+ie -C V2E -o "C:\Users\dimitris\Desktop\Interrupt-Toggle-Led\Interrupt_Toggle_Led.hex" -d "C:\Users\dimitris\Desktop\Interrupt-Toggle-Led\Interrupt_Toggle_Led.obj" -e "C:\Users\dimitris\Desktop\Interrupt-Toggle-Led\Interrupt_Toggle_Led.eep" -m "C:\Users\dimitris\Desktop\Interrupt-Toggle-Led\Interrupt_Toggle_Led.map" "C:\Users\dimitris\Desktop\Interrupt-Toggle-Led\Interrupt_Toggle_Led.asm"
